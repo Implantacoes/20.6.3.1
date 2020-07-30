@@ -1,3 +1,0 @@
-C;82.854.840/0001-25;20/07/2020;28178;50;;80,00;0;”Lançamento Automático Nota de Entrada 28178”; 
-C;82.854.840/0001-25;20/07/2020;28178;;1862;40,00;0;”Lançamento Automático Nota de Entrada 28178”; 
-C;82.854.840/0001-25;20/07/2020;28178;;1580;40,00;0;”Lançamento Automático Nota de Entrada 28178”;
