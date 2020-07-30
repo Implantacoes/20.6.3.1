@@ -1,0 +1,319 @@
+object TnItemImportacao
+  Delimitador = #0
+  DMClassName = 'TnCtbDMPlanoPadrao'
+  EhVariavel = True
+  FormatoData = 'DD/MM/YYYY'
+  IdentificadorRegistro = 'P'
+  IdentificadorValorNulo = #0
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = ','
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 270
+  Indice = 'CODIGOPADRAO;CONTACTB'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOPADRAO'
+    PosicaoInicio = 2
+    Tamanho = 4
+    Precisao = 0
+    Coluna = 1
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTACTB'
+    PosicaoInicio = 6
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOCONTA'
+    PosicaoInicio = 17
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 3
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CLASSIFCONTA'
+    PosicaoInicio = 19
+    Tamanho = 30
+    Precisao = 0
+    Coluna = 4
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DESCRCONTA'
+    PosicaoInicio = 49
+    Tamanho = 50
+    Precisao = 0
+    Coluna = 5
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOCONTACALC'
+    PosicaoInicio = 99
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 6
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'EMITIRBALANCO'
+    PosicaoInicio = 101
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 7
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'NATURSALDO'
+    PosicaoInicio = 103
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 8
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CTRLSALDO'
+    PosicaoInicio = 105
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 9
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOCOTACAO'
+    PosicaoInicio = 107
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 11
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'COTACAO'
+    PosicaoInicio = 112
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 12
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTAIMOB'
+    PosicaoInicio = 117
+    Tamanho = 1
+    Precisao = 0
+    Coluna = 10
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'NATURIMOB'
+    PosicaoInicio = 118
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 11
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOENCARGO'
+    PosicaoInicio = 120
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 12
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'TAXAENCARGO'
+    PosicaoInicio = 122
+    Tamanho = 7
+    Precisao = 2
+    Coluna = 13
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'LIMITEENCARGO'
+    PosicaoInicio = 129
+    Tamanho = 8
+    Precisao = 2
+    Coluna = 14
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODRE'
+    PosicaoInicio = 137
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 15
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADRE'
+    PosicaoInicio = 137
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 16
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODRA'
+    PosicaoInicio = 148
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 17
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADRA'
+    PosicaoInicio = 148
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 18
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODOAR'
+    PosicaoInicio = 159
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 17
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADOAR'
+    PosicaoInicio = 159
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 18
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODVA'
+    PosicaoInicio = 170
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 19
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADVA'
+    PosicaoInicio = 170
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 20
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODFCD'
+    PosicaoInicio = 181
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 21
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADFCD'
+    PosicaoInicio = 186
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 27
+    Tipo = itCampo
+    ValorFixo = '22'
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODFCI'
+    PosicaoInicio = 197
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 23
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADFCI'
+    PosicaoInicio = 202
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 24
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGODLPA'
+    PosicaoInicio = 213
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 25
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CONTADLPA'
+    PosicaoInicio = 218
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 26
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'APELIDOCONTA'
+    PosicaoInicio = 229
+    Tamanho = 30
+    Precisao = 0
+    Coluna = 27
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAHORACADAST'
+    PosicaoInicio = 259
+    Tamanho = 19
+    Precisao = 0
+    Coluna = 33
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOUSUARIO'
+    PosicaoInicio = 259
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 34
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOCONTROLECONTABIL'
+    PosicaoInicio = 259
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 35
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'AJUSTEVALORPRESENTE'
+    PosicaoInicio = 261
+    Tamanho = 1
+    Precisao = 0
+    Coluna = 36
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'TAXAPADRAOAJUSTE'
+    PosicaoInicio = 262
+    Tamanho = 7
+    Precisao = 2
+    Coluna = 37
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'AJUSTEPATRIMONIAL'
+    PosicaoInicio = 269
+    Tamanho = 1
+    Precisao = 0
+    Coluna = 38
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'IMPAIRMENT'
+    PosicaoInicio = 270
+    Tamanho = 1
+    Precisao = 0
+    Coluna = 39
+    Tipo = itIgnorar
+  end
+end

@@ -1,0 +1,249 @@
+H;0;[DICTEXTO];5
+H;1;Vendas a Vista Nesta Data [DICTEXTO];
+H;2;Cheque Número [DICNUMERICO];
+H;3;Cheque Devolvido Conforme Aviso [DICTEXTO];
+H;4;Recebimento Diversas Duplicatas [DICTEXTO];
+H;5;Saldo Balanço de Abertura [DICTEXTO];
+H;6;Pagamento NF Número [DICNUMERICO];
+H;7;Pagamento Duplicata Número [DICNUMERICO];
+H;8;Depósito Confome Recibo [DICTEXTO];
+H;9;Pagamento Cfe. Recibo [DICTEXTO];
+H;10;Pagamento Guia Pis Referente [DICTEXTO];
+H;11;Pagamento Guia Cofins Referente [DICTEXTO];
+H;12;Pagamento Guia FGTS Referente  [DICTEXTO];
+H;13;Pagamento Guia INSS Referente  [DICTEXTO];2
+H;14;Pagamento Guia ISS Referente [DICTEXTO];6
+H;15;Pagamento Juros s/[DICTEXTO];
+H;16;Aplicação Conforme Avisos  [DICTEXTO];5
+H;17;Resgate Conforme Avisos  [DICTEXTO];5
+H;18;Pagamento Cfe Diversas N Fs  [DICTEXTO];
+H;19;Pagamento Guia ICMS Referente  [DICTEXTO];6
+H;20;Débito CPMF;
+H;21;Recebimentos Desta Data  [DICTEXTO];4
+H;22;Pagamentos Desta Data  [DICTEXTO];3
+H;23;Operação Desconto Conforme Aviso  [DICTEXTO];
+H;24;Empréstimo Conforme Aviso [DICTEXTO];
+H;25;Devolução de Mercadorias Conforme NF [DICNUMERICO] de [DICTEXTO];
+H;26;ICMS Devoluções Produtos Mês  [DICTEXTO];
+H;27;Reembolso Valores Referente Devolução Conforme NF  [DICTEXTO];
+H;28;Liquidação Duplicatas Aviso Banco  [DICTEXTO];
+H;29;ICMS sobre Faturamento   [DICTEXTO];
+H;30;Variação Monetária sobre a Folha  [DICTEXTO];
+H;31;ICMS sobre Remessa para Conserto Mês  [DICTEXTO];
+H;32;Juros e Despesas sobre Operações  [DICTEXTO];
+H;33;Comissões Cobranças sobre Duplicatas  [DICTEXTO];
+H;34;Juros/IOF sobre Empréstimos para Conta Corrente  [DICTEXTO];
+H;35;Valor Bruto Folha  [DICTEXTO];
+H;36;Desconto Empregados sobre Folha  [DICTEXTO];
+H;37;Salário Família sobre Folha  [DICTEXTO];
+H;38;Salario Maternidade sobre Folha  [DICTEXTO];
+H;39;Contribuição INSS Parte Empresa sobre Folha  [DICTEXTO];
+H;40;Contribuição SAT sobre Folha  [DICTEXTO];
+H;41;Contribuição FGTS sobre Folha  [DICTEXTO];
+H;42;Contribuição Sindical Empregados sobre Folha  [DICTEXTO];
+H;43;Desconto IRF sobre Folha  [DICTEXTO];
+H;44;Desconto Vale Transporte sobre Folha  [DICTEXTO];
+H;45;Contribuição INSS Parte Empresa sobre Pro-Labore e Autonômos;
+H;46;Pro-Labore Referente  [DICTEXTO];
+H;47;Desconto IRF sobre Pro-Labore  [DICTEXTO];
+H;48;Pagamento Pro-Labore Referente  [DICTEXTO];
+H;49;Valor crédito ICMS s/ NF entradas [DICTEXTO];
+H;50;Valor Líquido Folha  [DICTEXTO];
+H;51;Transferência a Recolher  [DICTEXTO];
+H;52;Valor débito ICMS s/ NF saídas [DICTEXTO];
+H;53;ICMS sobre Serviço de Transporte Mês  [DICTEXTO];
+H;54;ICMS sobre NF  [DICTEXTO];
+H;55;Apropriação sobre Receitas Operacionais  [DICTEXTO];
+H;56;Apropriação sobre Vendas  [DICTEXTO];
+H;57;Apropriação sobre Serviços  [DICTEXTO];
+H;58;Pagamento Fatura Nr [DICTEXTO];
+H;59;Pagamento Fatura Telefone Nr. [DICTEXTO];
+H;60;Pagamento Fatura Corsan  [DICTEXTO];
+H;61;Pagamento Recibo ACIC  [DICTEXTO];
+H;62;Pagamento Carne Prefeitura Municipal  [DICTEXTO];
+H;63;Venda Conforme NF Número [DICNUMERICO];
+H;64;Compra Conforme NF Número [DICNUMERICO] de [DICTEXTO];
+H;65;Nota Fiscal  [DICTEXTO];
+H;66;Transferência Conta Vinculada Conforme Aviso  [DICTEXTO];
+H;67;Reembolso Duplicatas Conforme Aviso  [DICTEXTO];
+H;68;Faturas Diversas  [DICTEXTO];
+H;69;Pagamento Recibo EBCT  [DICTEXTO];
+H;70;Fornecimento Talão de Cheques  [DICTEXTO];
+H;71;Honorários  [DICTEXTO];
+H;72;Liquidação Empréstimo Conforme Aviso  [DICTEXTO];
+H;73;Desconto s/ [DICTEXTO];
+H;74;Pagamento Notas Fiscais Referente Mercadorias Nesta Data  [DICTEXTO];
+H;75;Pagamento Notas Fiscais Manutenção e Reparos de Veículos Nesta Data;
+H;76;Pagamento Notas Fiscais de Material de Consumo Nesta Data  [DICTEXTO];
+H;77;Pagamento Conhecimento Nesta Data  [DICTEXTO];
+H;78;Estorno Apropriação Provisória em  [DICTEXTO];
+H;79;ICMS sobre Fatura Telesc  [DICTEXTO];
+H;80;Depreciação do Exercício Conforme Demonstrativo  [DICTEXTO];
+H;81;Correção Monetária do Exercício Conforme Demonstrativo  [DICTEXTO];
+H;82;Correção Monetária e Depreciação do Exercício Conforme Demonstrativo;
+H;83;Transferência de Valores para Conta Resultado do Exercício;
+H;84;Conhecimento  [DICTEXTO];
+H;85;ICMS sobre Devolução de Mercadorias Mês  [DICTEXTO];
+H;86;Diferença de Aliquota Conforme Livro Apuração ICMS  [DICTEXTO];
+H;87;Devolução Mercadorias Conforme NF  [DICTEXTO];
+H;88;Reembolso de Valores Referente Devolução Mercadorias no Mês [DICTEXTO];
+H;89;Pagamento NF´s Mercadorias Nesta Data  [DICTEXTO];
+H;90;Pagamento NF´s Manutenção e Reparos de Veículos Nesta Data  [DICTEXTO];
+H;91;Pagamento Contribuição Social Referente  [DICTEXTO];
+H;92;Pagamento Guia IRPJ Referente  [DICTEXTO];
+H;93;Pagamento NF´s Combustíveis e Lubrificantes Nesta Data  [DICTEXTO];
+H;94;Pagamento NF´s de Material de Uso e Consumo Nesta Data  [DICTEXTO];
+H;95;Pagamento Diversas Nfs de Viagem cfe  [DICTEXTO];
+H;96;Depreciação Conforme Demonstrativo  [DICTEXTO];
+H;97;Correção Monetária Conforme Demonstrativo  [DICTEXTO];
+H;98;Baixa por Venda Pelo Custo Corrigido  [DICTEXTO];
+H;99;Baixa por Venda Depreciação Acumulada  [DICTEXTO];
+H;100;Estorno Débitos Conforme Livro Apuração ICMS  [DICTEXTO];
+H;101;Outros Débitos Conforme Livro Apuração ICMS  [DICTEXTO];
+H;102;Vendas Conforme Conhecimentos Nesta Data  [DICTEXTO];
+H;103;Saída de Mercadorias Conforme Manifestos Nesta Data  [DICTEXTO];
+H;104;Entrada de Mercadorias Conforme Manifestos Nesta Data  [DICTEXTO];
+H;105;Apropriações sobre Manifestos Mês  [DICTEXTO];
+H;106;Transferências de Produtos Conforme NF  [DICTEXTO];
+H;107;IPI sobre Compras Mes  [DICTEXTO];
+H;108;IPI sobre Vendas Mês [DICTEXTO];
+H;109;Devolução Produtos Conforme NF [DICNUMERICO];
+H;110;ICMS sobre Transferências Mês  [DICTEXTO];
+H;111;IPI sobre Devolução Produtos Mês  [DICTEXTO];
+H;112;Estorno Valor Apropriado sobre Retorno Manifestos Mês  [DICTEXTO];
+H;113;Valor 13o Salário Integral Conforme Folha  [DICTEXTO];
+H;114;Adiantamento de Férias  [DICTEXTO];
+H;115;Abono de Férias [DICTEXTO];
+H;116;Provisão para Férias Conforme Folha  [DICTEXTO];
+H;117;INSS sobre Provisão para Férias Conforme Folha  [DICTEXTO];
+H;118;FGTS sobre Provisão para Férias Conforme Folha  [DICTEXTO];
+H;119;Reversão 1a Parcela 13o Salário Conforme Folha  [DICTEXTO];
+H;120;Indenização sobre Rescisão  [DICTEXTO];
+H;121;Aviso Prévio sobre Rescisão  [DICTEXTO];
+H;122;Provisão para 13o Salário Conforme Folha  [DICTEXTO];
+H;123;INSS sobre Pro-Labore Referente  [DICTEXTO];
+H;124;FGTS sobre Provisão para 13o Salário Conforme Folha  [DICTEXTO];
+H;125;Aviso Prévio Reavido sobre Rescisão  [DICTEXTO];
+H;126;Auxílio Natalidade sobre Folha  [DICTEXTO];
+H;127;Adiantamento 1a Parcela 13o Salário Conforme Folha  [DICTEXTO];
+H;128;Reversão Adiantamento 1a Parcela 13o Salário Conforme Folha [DICTEXTO];
+H;129;INSS sobre 13o Salário Conforme Folha  [DICTEXTO];
+H;130;FGTS sobre Adiantamento 1a Parcela 13o Salário Conforme Folha;
+H;131;FGTS sobre 2a Parcela 13o Salário Conforme Folha  [DICTEXTO];
+H;132;Rescisão  [DICTEXTO];
+H;133;FGTS sobre Rescisão  [DICTEXTO];
+H;134;INSS sobre Rescisão  [DICTEXTO];
+H;135;Valor Líquido Rescisão  [DICTEXTO];
+H;136;Férias  [DICTEXTO];
+H;137;INSS sobre Férias  [DICTEXTO];
+H;138;FGTS sobre Férias  [DICTEXTO];
+H;139;Valor Líquido Férias  [DICTEXTO];
+H;140;Troco do Mês Anterior sobre Folha  [DICTEXTO];
+H;141;Férias sobre Rescisão  [DICTEXTO];
+H;142;Reembolso de Valores sobre Rescisão  [DICTEXTO];
+H;143;13o Salário sobre Rescisão [DICTEXTO];
+H;144;Adiantamento de Salário Conforme Folha [DICTEXTO];
+H;145;Desconto Adiantamento Salarial Conforme Folha [DICTEXTO];
+H;146;13o Salário Complementar a Devolver Conforme Folha [DICTEXTO];
+H;147;Pensão Judicial Conforme Folha [DICTEXTO];
+H;148;Pensão Judicial sobre Férias [DICTEXTO];
+H;149;Desconto Adiantamento de Férias [DICTEXTO];
+H;150;Reembolso de Valores de Seguros de Vida Conforme Folha [DICTEXTO];
+H;151;IRF sobre 13o Salário Conforme Folha [DICTEXTO];
+H;152;IRF sobre Férias [DICTEXTO];
+H;153;Abono Vale Transporte Conforme Folha [DICTEXTO];
+H;154;Desconto UNIMED sobre Folha [DICTEXTO];
+H;155;Valor Terceiros sobre Folha [DICTEXTO];
+H;156;Valor Convênios sobre Folha [DICTEXTO];
+H;157;Baixa INSS Provisão sobre Férias/Rescisão Mês Conforme Folha [DICTEXTO];
+H;158;Baixa INSS Provisionado sobre Rescisão Mês Conforme Folha [DICTEXTO];
+H;159;Baixa FGTS Provisionado sobre Férias Mês Conforme Folha [DICTEXTO];
+H;160;Baixa FGTS Provisionado sobre Rescisao Mês Conforme Folha [DICTEXTO];
+H;161;Ajuste FGTS sobre Provisão 13o Salário Conforme Folha [DICTEXTO];
+H;162;Ajuste INSS sobre Provisão 13o Salário Conforme Folha [DICTEXTO];
+H;163;Ajuste Provisão para 13o Salário Conforme Folha [DICTEXTO];
+H;164;Ajuste FGTS sobre Provisão para Férias Conforme Folha [DICTEXTO];
+H;165;Ajuste INSS sobre Provisão para Férias Conforme Folha [DICTEXTO];
+H;166;Ajuste Provisão para Férias Conforme Folha[DICTEXTO];
+H;167;Contribuição INSS Empresa 20% sobre Folha e 15% sobre Pro-Labore;
+H;168; [DICTEXTO];
+H;169;IPI sobre Transferências Mês [DICTEXTO];
+H;170;PIS sobre Devolução de Vendas Mês [DICTEXTO];
+H;171;Simples sobre Devolução de Vendas Mês [DICTEXTO];
+H;172;Cofins sobre Devolução de Vendas Mês [DICTEXTO];
+H;173;IRPJ sobre Devolução de Vendas Mês [DICTEXTO];
+H;174;Contribuição Social sobre Devolução Vendas [DICTEXTO];
+H;175;Transferência de Mercadorias Conforme Nota Fiscal [DICTEXTO];
+H;176;ISS sobre Vendas Mês [DICTEXTO];
+H;177;Simples sobre Faturamento Mês [DICTEXTO];
+H;178;PIS sobre Faturamento Mês [DICTEXTO];
+H;179;Cofins sobre Faturamento Mês [DICTEXTO];
+H;180;IRPJ sobre Lucro Presumido Mês [DICTEXTO];
+H;181;CSLL sobre Lucro Presumido Mês [DICTEXTO];
+H;182;INSS sobre Folha Pagamento Referente Mês [DICTEXTO];
+H;183;Pagamento Guia Simples Referente [DICTEXTO];
+H;184;Pagamento Aluguel Referente [DICTEXTO];
+H;185;Pagamento Referente [DICTEXTO];
+H;186;Pagamento Taxa Funrebom/PM Referente [DICTEXTO];
+H;187;Valor Funrural Referente [DICTEXTO];
+H;188;ICMS Substituição Tributária Mês [DICTEXTO];
+H;189;ICMS sobre Devolução de Vendas Mercadorias Substituição Tributária;
+H;190;ICMS sobre Devolução de Vendas Produtos Substituição Tributária;
+H;191;Estorno ICMS sobre Compras Imobilizado Mês [DICTEXTO];
+H;192;ICMS Simples/RS Referente Mês [DICTEXTO];
+H;193;ISS Estimativa Fixa Referente Mês [DICTEXTO];
+H;194;INSS Retido sobre Nota Fiscal Número [DICTEXTO];
+H;195; [DICTEXTO];
+H;196;Depósito;
+H;197;Compensação do Prejuizo Liquido Pelo Lucro Acumulado [DICTEXTO];1
+H;198;Compra Conforme NF Número [DICNUMERICO];
+H;199;Retenção Funrural NF [DICNUMERICO] de [DICTEXTO];
+H;200;Efeitos da Mudança de Critério Contábil [DICTEXTO];1
+H;201;Retificação de Erro de Exercícios Anteriores [DICTEXTO];1
+H;202;Imposto de Renda [DICTEXTO];1
+H;203;Aumento de Capital em [DICTEXTO];1
+H;204;Aquisições Ações Próprias com Reserva de Ágio na Subscrição [DICTEXTO];1
+H;205;Subvenções Incentivos Fiscais IR [DICTEXTO];1
+H;206;Reversão e Transferência de Reserva [DICTEXTO];1
+H;207;Atualização Monetária [DICTEXTO];1
+H;208;Lucro Líquido do Exercício [DICTEXTO];1
+H;209;Destinação do Lucro Líquido do Exercício para Reservas [DICTEXTO];1
+H;210;Destinação do Lucro Líquido do Exercício para Dividendos [DICTEXTO];1
+H;211;Retenção Funrural NF [DICNUMERICO] de [DICTEXTO];
+H;212;Devolução Produtos Conforme NF [DICNUMERICO]  de [DICTEXTO];
+H;213;Devolução de Mercadorias Conforme NF [DICNUMERICO];
+H;214;Aquisição Serviço Transporte Conforme CTRC [DICNUMERICO];
+H;215;Aquisição Serviço Transporte Conforme CTRC [DICNUMERICO] de [DICTEXTO];
+H;216;Prestação Serviço de Transporte Conforme CTRC [DICNUMERICO];
+H;217;Prestação Serviço Conforme NF [DICNUMERICO];
+H;218;IRRF Retido sobre Nota Fiscal Número [DICTEXTO];
+H;219;ISS Retido sobre Nota Fiscal Número [DICTEXTO];
+H;220;PIS Retido sobre Nota Fiscal Número [DICTEXTO];
+H;221;COFINS Retido sobre Nota Fiscal Número [DICTEXTO];
+H;222;CSLL Retido sobre Nota Fiscal Número [DICTEXTO];
+H;223;Pagamento Multas s/ [DICTEXTO];
+H;224;Prejuizo Líquido do Exercício [DICTEXTO];
+H;225;Recebimento Dupl [DICNUMERICO];
+H;226;IRPJ Sobre Lucro Real Ref Mes [DICTEXTO];
+H;227;CSLL sobre Lucro Real Mês [DICTEXTO];
+H;350;Valor Referente [DICTEXTO];
+H;351;Transferencia para reservas de lucros a realizar [DICDATAMESANO];
+H;352;Transferencias entre contas [DICTEXTO];7
+H;353;Valor transferido [DICTEXTO];7
+H;354;Vlr. Débito Bco [DICTEXTO];7
+H;355;Vlr. Crédito Bco.[DICTEXTO];7
+H;356;Pagamento RCV Nº[DICTEXTO];7
+H;357;Pagamento Guia[DICTEXTO];3
+H;358;Pagamento Guia IRRF Ref[DICTEXTO];3
+H;359;Pagamento Guia Pis/Cofins/Contr.Social S/NF[DICTEXTO];3
+H;360;Pago conforme recibo AV.[DICTEXTO];7
+H;361;Pago Nota Fiscal. AV[DICTEXTO];7
+H;362;Pago Cumpom Fiscal AV.[DICTEXTO];7
+H;363;Recebimento de Juros s/Dupl.[DICTEXTO];7
+H;364;Retenção Senar NF [DICNUMERICO] de [DICTEXTO];7
+H;365;Retenção Royalties NF [DICNUMERICO] de [DICTEXTO];7
+H;366;Valor Referente [DICTEXTO];
+H;367;Vlr.Crédito Fiscal Pis s/[DICTEXTO];7
+H;368;Vlr.Crédito Fiscal Cofins s/[DICTEXTO];7
+H;369;P/existencia de mercadorias cfe.Reg.Inv[DICTEXTO];7
+H;370;P/Baixa de Estoque de [DICTEXTO] cfe encerramento periodo;7

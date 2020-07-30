@@ -1,0 +1,4 @@
+C;82.854.840/0001-25;19/07/2020;13095;2540;5;15881,42;0;”Lançamento Automático Nota de Entrada a Vista 13095”; 
+C;82.854.840/0001-25;19/07/2020;33224;2540;5;25960,61;0;”Lançamento Automático Nota de Entrada a Vista 33224”; 
+C;82.854.840/0001-25;20/07/2020;872243;5;1560;30,77;0;”Lançamento Automático Nota de Entrada a Vista 872243”; 
+C;82.854.840/0001-25;20/07/2020;28178;5;1862;80,00;0;”Lançamento Automático Nota de Entrada a Vista 28178”;
