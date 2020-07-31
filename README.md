@@ -1,0 +1,1 @@
+### [Central de ajuda / Contábil](https://questor.movidesk.com/kb/pt-br/article/112966/historicos-para-conciliacao?menuId=11928-34927-112966&ticketId=&q=)
