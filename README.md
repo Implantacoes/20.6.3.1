@@ -1,3 +1,7 @@
+<p align="center">
+    <img width="650" height="200" src="/LOGO--800X800.png" title="Logo do projeto"><br />
+</p>
+
 # Versão 20.6.3.1
 
 Para acessar os módulos clique em "master" (branch) logo acima, clique no módulo desejado.
