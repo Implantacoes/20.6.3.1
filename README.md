@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="650" height="650" src="/LOGO--800X800.png" title="Logo do projeto"><br />
+    <img width="400" height="400" src="/LOGO--800X800.png" title="Logo do projeto"><br />
 </p>
 
 # Versão 20.6.3.1
