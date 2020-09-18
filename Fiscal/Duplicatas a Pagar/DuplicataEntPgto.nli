@@ -1,0 +1,165 @@
+object TnItemImportacao
+  Delimitador = #0
+  DMClassName = 'TnFisDMDuplicataEntPgto'
+  EhVariavel = True
+  IdentificadorRegistro = 'C;'
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = ','
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 266
+  Indice = 'CODIGOEMPRESA;CODIGOPESSOA;CHAVEDUPLICATAENT;NUMEROPARCELA;SEQ'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOEMPRESA'
+    PosicaoInicio = 2
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 2
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOPESSOA'
+    PosicaoInicio = 7
+    Tamanho = 9
+    Precisao = 0
+    Coluna = 4
+    Tipo = itLookup
+    ValorFixo = 'InscrFederal'
+  end
+  object TnCursorLayoutField
+    FieldName = 'CHAVEDUPLICATAENT'
+    PosicaoInicio = 16
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 4
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMEROPARCELA'
+    PosicaoInicio = 27
+    Tamanho = 3
+    Precisao = 0
+    Coluna = 3
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'SEQ'
+    PosicaoInicio = 30
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 6
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMERODUPLICATAENT'
+    PosicaoInicio = 32
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATALCTOFIS'
+    PosicaoInicio = 57
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 8
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOESTAB'
+    PosicaoInicio = 67
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 1
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAPGTO'
+    PosicaoInicio = 72
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 5
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORTARIFA'
+    PosicaoInicio = 82
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 6
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORPAGO'
+    PosicaoInicio = 98
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 7
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORJUROS'
+    PosicaoInicio = 114
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 8
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORMULTA'
+    PosicaoInicio = 130
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 9
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORDESCONTO'
+    PosicaoInicio = 146
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 10
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOTABCTBFIS'
+    PosicaoInicio = 162
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 11
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOUSUARIO'
+    PosicaoInicio = 167
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 17
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAHORALCTOFIS'
+    PosicaoInicio = 167
+    Tamanho = 19
+    Precisao = 0
+    Coluna = 18
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'ORIGEMDADO'
+    PosicaoInicio = 167
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 19
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'OBSERVPGTO'
+    PosicaoInicio = 167
+    Tamanho = 100
+    Precisao = 0
+    Coluna = 11
+    Tipo = itIgnorar
+  end
+end

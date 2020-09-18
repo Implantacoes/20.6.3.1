@@ -1,0 +1,166 @@
+object TnItemImportacao
+  Delimitador = #39
+  DMClassName = 'TnFisDMLctoFisEntSubTribut'
+  EhVariavel = True
+  IdentificadorRegistro = 'H;'
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = '.'
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 461
+  Indice = 'CODIGOEMPRESA;CHAVELCTOFISENT;SEQ'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOEMPRESA'
+    PosicaoInicio = 2
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 13
+    Tipo = itValorFixo
+    ValorFixo = '2006'
+  end
+  object TnCursorLayoutField
+    FieldName = 'CHAVELCTOFISENT'
+    PosicaoInicio = 7
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 3
+    Tipo = itMaster
+    ValorFixo = 'LctoFisEnt.CHAVELCTOFISENT'
+  end
+  object TnCursorLayoutField
+    FieldName = 'SEQ'
+    PosicaoInicio = 18
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 4
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOESTAB'
+    PosicaoInicio = 23
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 1
+    Tipo = itMaster
+    ValorFixo = 'LctoFisEnt.CODIGOESTAB'
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATALCTOFIS'
+    PosicaoInicio = 28
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 6
+    Tipo = itMaster
+    ValorFixo = 'LctoFisEnt.DATALCTOFIS'
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORDESPESA'
+    PosicaoInicio = 28
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOANTECIPACAO'
+    PosicaoInicio = 44
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 3
+    Tipo = itCampo
+    ConverterValores.Strings = (
+      '0.00=0')
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOCFOP'
+    PosicaoInicio = 46
+    Tamanho = 15
+    Precisao = 0
+    Coluna = 12
+    Tipo = itEventoPreDefinido
+    ValorFixo = 'limparinteiro'
+  end
+  object TnCursorLayoutField
+    FieldName = 'ALIQIMPOSTOCFOP'
+    PosicaoInicio = 56
+    Tamanho = 7
+    Precisao = 2
+    Coluna = 4
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOOPERACAOFIS'
+    PosicaoInicio = 63
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 4
+    Tipo = itCampo
+    ConverterValores.Strings = (
+      '400=11400')
+  end
+  object TnCursorLayoutField
+    FieldName = 'BASECALCULOSUBTRIBUT'
+    PosicaoInicio = 74
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 5
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORSUBTRIBUT'
+    PosicaoInicio = 90
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 6
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'BASECALCICMSPROP'
+    PosicaoInicio = 106
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 7
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORICMSPROP'
+    PosicaoInicio = 122
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 8
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'SIGLAESTADO'
+    PosicaoInicio = 138
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 9
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOOBS'
+    PosicaoInicio = 140
+    Tamanho = 6
+    Precisao = 0
+    Coluna = 11
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'COMPLOBS'
+    PosicaoInicio = 146
+    Tamanho = 300
+    Precisao = 0
+    Coluna = 18
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOPRODUTO'
+    PosicaoInicio = 446
+    Tamanho = 16
+    Precisao = 0
+    Coluna = 13
+    Tipo = itLookup
+    ValorFixo = 'REFERENPRODUTO'
+  end
+end

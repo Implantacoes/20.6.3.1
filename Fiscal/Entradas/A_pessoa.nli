@@ -1,0 +1,262 @@
+object TnItemImportacao
+  Delimitador = #0
+  DMClassName = 'TnGemDMPessoa'
+  EhVariavel = True
+  IdentificadorRegistro = 'A;'
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = #0
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 574
+  UsarFlagImportado = False
+  Indice = 'CODIGOPESSOA'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOPESSOA'
+    PosicaoInicio = 1
+    Tamanho = 7
+    Precisao = 0
+    Coluna = 1
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'NOMEPESSOA'
+    PosicaoInicio = 8
+    Tamanho = 50
+    Precisao = 0
+    Coluna = 1
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOINSCR'
+    PosicaoInicio = 58
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'INSCRFEDERAL'
+    PosicaoInicio = 63
+    Tamanho = 18
+    Precisao = 0
+    Coluna = 3
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATANASC'
+    PosicaoInicio = 81
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 28
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'SUFRAMA'
+    PosicaoInicio = 81
+    Tamanho = 9
+    Precisao = 0
+    Coluna = 23
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'SEQUENCIA'
+    PosicaoInicio = 81
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 2
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CEPENDERPESSOA'
+    PosicaoInicio = 208
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 11
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'LOGRADPESSOA'
+    PosicaoInicio = 86
+    Tamanho = 15
+    Precisao = 0
+    Coluna = 4
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'ENDERECOPESSOA'
+    PosicaoInicio = 101
+    Tamanho = 40
+    Precisao = 0
+    Coluna = 5
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMENDERPESSOA'
+    PosicaoInicio = 141
+    Tamanho = 7
+    Precisao = 0
+    Coluna = 6
+    Tipo = itEventoPreDefinido
+    ValorFixo = 'EnderecoNumero'
+  end
+  object TnCursorLayoutField
+    FieldName = 'COMPLENDERPESSOA'
+    PosicaoInicio = 148
+    Tamanho = 20
+    Precisao = 0
+    Coluna = 7
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'BAIRROENDERPESSOA'
+    PosicaoInicio = 168
+    Tamanho = 30
+    Precisao = 0
+    Coluna = 8
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'SIGLAESTADO'
+    PosicaoInicio = 198
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 9
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOMUNIC'
+    PosicaoInicio = 200
+    Tamanho = 8
+    Precisao = 0
+    Coluna = 10
+    Tipo = itLookup
+    ValorFixo = 'CODIGORAIS'
+  end
+  object TnCursorLayoutField
+    FieldName = 'DDDFONE'
+    PosicaoInicio = 218
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 12
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMEROFONE'
+    PosicaoInicio = 223
+    Tamanho = 9
+    Precisao = 0
+    Coluna = 13
+    Tipo = itEventoPreDefinido
+    ValorFixo = 'TelefoneNumero'
+  end
+  object TnCursorLayoutField
+    FieldName = 'TIPOFORNECEDOR'
+    PosicaoInicio = 232
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 29
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'ALIQSIMPLESNACIONAL'
+    PosicaoInicio = 237
+    Tamanho = 7
+    Precisao = 2
+    Coluna = 30
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'PRODUTRURAL'
+    PosicaoInicio = 232
+    Tamanho = 1
+    Precisao = 0
+    Coluna = 14
+    Tipo = itCampo
+    ConverterValores.Strings = (
+      'N=0'
+      'S=1')
+  end
+  object TnCursorLayoutField
+    FieldName = 'INSCRPROD'
+    PosicaoInicio = 233
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 15
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'INSCRESTAD'
+    PosicaoInicio = 258
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 16
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'INSCRMUNIC'
+    PosicaoInicio = 283
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 19
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOATIVFEDERAL'
+    PosicaoInicio = 308
+    Tamanho = 9
+    Precisao = 0
+    Coluna = 20
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'EMAIL'
+    PosicaoInicio = 283
+    Tamanho = 100
+    Precisao = 0
+    Coluna = 17
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'PAGINAINTERNET'
+    PosicaoInicio = 383
+    Tamanho = 100
+    Precisao = 0
+    Coluna = 18
+    Tipo = itIgnorar
+    ConverterValores.Strings = (
+      'N=0'
+      'S=1')
+  end
+  object TnCursorLayoutField
+    FieldName = 'FORMADUPLICATAPARCELA'
+    PosicaoInicio = 483
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 19
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOUSUARIO'
+    PosicaoInicio = 488
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 26
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAHORALCTO'
+    PosicaoInicio = 493
+    Tamanho = 19
+    Precisao = 0
+    Coluna = 27
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'ORIGEMDADO'
+    PosicaoInicio = 512
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 28
+    Tipo = itIgnorar
+  end
+end

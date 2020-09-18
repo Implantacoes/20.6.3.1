@@ -1,1 +1,1 @@
-### [Central de ajuda / Contábil](https://questor.movidesk.com/kb/pt-br/article/112966/historicos-para-conciliacao?menuId=11928-34927-112966&ticketId=&q=)
+### [Central de ajuda / Fiscal](https://questor.movidesk.com/kb/article/110050/escrituracao-documentos-extemporaneos?menuId=12307-34864-110050&ticketId=&q=)

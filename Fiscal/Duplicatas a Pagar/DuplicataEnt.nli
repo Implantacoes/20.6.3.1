@@ -1,0 +1,117 @@
+object TnItemImportacao
+  Delimitador = #0
+  DMClassName = 'TnFisDMDuplicataEnt'
+  EhVariavel = True
+  IdentificadorRegistro = 'A;'
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = ','
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 183
+  Indice = 'CODIGOEMPRESA;CODIGOPESSOA;CHAVEDUPLICATAENT'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOEMPRESA'
+    PosicaoInicio = 2
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 2
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOPESSOA'
+    PosicaoInicio = 7
+    Tamanho = 9
+    Precisao = 0
+    Coluna = 1
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CHAVEDUPLICATAENT'
+    PosicaoInicio = 16
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 4
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CHAVELCTOFISENT'
+    PosicaoInicio = 27
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 5
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMERODUPLICATAENT'
+    PosicaoInicio = 38
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'SERIEDUPLICATAENT'
+    PosicaoInicio = 63
+    Tamanho = 4
+    Precisao = 0
+    Coluna = 7
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATALCTOFIS'
+    PosicaoInicio = 67
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 4
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOESTAB'
+    PosicaoInicio = 77
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 3
+    Tipo = itLookup
+    ValorFixo = 'INSCRFEDERAL'
+  end
+  object TnCursorLayoutField
+    FieldName = 'INDTITULO'
+    PosicaoInicio = 82
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 6
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'OBSERVDUPLICATA'
+    PosicaoInicio = 84
+    Tamanho = 100
+    Precisao = 0
+    Coluna = 6
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOUSUARIO'
+    PosicaoInicio = 184
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 12
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAHORALCTOFIS'
+    PosicaoInicio = 184
+    Tamanho = 19
+    Precisao = 0
+    Coluna = 13
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'ORIGEMDADO'
+    PosicaoInicio = 184
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 14
+    Tipo = itIgnorar
+  end
+end

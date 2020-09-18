@@ -1,0 +1,103 @@
+object TnItemImportacao
+  Delimitador = #0
+  DMClassName = 'TnFisDMDuplicataSaiParcela'
+  EhVariavel = True
+  IdentificadorRegistro = 'B:'
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = ','
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 102
+  Indice = 'CODIGOEMPRESA;CODIGOESTAB;CHAVEDUPLICATASAI;NUMEROPARCELA'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOEMPRESA'
+    PosicaoInicio = 2
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 2
+    Tipo = itMaster
+    ValorFixo = 'DuplicataSai.CODIGOESTB'
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOESTAB'
+    PosicaoInicio = 7
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 3
+    Tipo = itMaster
+    ValorFixo = 'DuplicataSai.CODIGOESTB'
+  end
+  object TnCursorLayoutField
+    FieldName = 'CHAVEDUPLICATASAI'
+    PosicaoInicio = 12
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 4
+    Tipo = itMaster
+    ValorFixo = 'DuplicataSai.CHAVEDUPLICATASAI'
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMEROPARCELA'
+    PosicaoInicio = 23
+    Tamanho = 3
+    Precisao = 0
+    Coluna = 1
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMERODUPLICATASAI'
+    PosicaoInicio = 26
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 6
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATALCTOFIS'
+    PosicaoInicio = 51
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 7
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAVENCIMENTO'
+    PosicaoInicio = 61
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORPARCELA'
+    PosicaoInicio = 71
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 3
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORBRUTO'
+    PosicaoInicio = 87
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 10
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'SITUACAO'
+    PosicaoInicio = 103
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 4
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAHORALCTOFIS'
+    PosicaoInicio = 103
+    Tamanho = 19
+    Precisao = 0
+    Coluna = 12
+    Tipo = itIgnorar
+  end
+end

@@ -1,0 +1,155 @@
+object TnItemImportacao
+  Delimitador = #0
+  DMClassName = 'TnFisDMDuplicataSaiPgto'
+  EhVariavel = True
+  FormatoData = 'dd/mm/yyyy'
+  IdentificadorRegistro = 'C;'
+  NaoIgnorarLookup = False
+  Separador = ';'
+  SeparadorDecimal = '.'
+  SohExportarSeTiverDetalhe = False
+  TamanhoRegistro = 156
+  Indice = 'CODIGOEMPRESA;CODIGOESTAB;CHAVEDUPLICATASAI;NUMEROPARCELA;SEQ'
+  object TnCursorLayoutField
+    FieldName = 'CODIGOEMPRESA'
+    PosicaoInicio = 2
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 2
+    Tipo = itPerguntar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOESTAB'
+    PosicaoInicio = 7
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 3
+    Tipo = itPerguntar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CHAVEDUPLICATASAI'
+    PosicaoInicio = 12
+    Tamanho = 11
+    Precisao = 0
+    Coluna = 2
+    Tipo = itLookup
+    ValorFixo = 'Codigoempresa;numeroduplicataSai'
+    ConverterValores.Strings = (
+      'Mascara=%25s')
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMEROPARCELA'
+    PosicaoInicio = 23
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 3
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'SEQ'
+    PosicaoInicio = 25
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 6
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'NUMERODUPLICATASAI'
+    PosicaoInicio = 27
+    Tamanho = 25
+    Precisao = 0
+    Coluna = 2
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATALCTOFIS'
+    PosicaoInicio = 52
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 5
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAPGTO'
+    PosicaoInicio = 62
+    Tamanho = 10
+    Precisao = 0
+    Coluna = 5
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORTARIFA'
+    PosicaoInicio = 72
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 6
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORPAGO'
+    PosicaoInicio = 88
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 7
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORJUROS'
+    PosicaoInicio = 104
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 8
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORMULTA'
+    PosicaoInicio = 120
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 9
+    Tipo = itCampo
+  end
+  object TnCursorLayoutField
+    FieldName = 'VALORDESCONTO'
+    PosicaoInicio = 136
+    Tamanho = 16
+    Precisao = 2
+    Coluna = 10
+    Tipo = itCampo
+    ConverterValores.Strings = (
+      '~=0')
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOTABCTBFIS'
+    PosicaoInicio = 152
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 15
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'CODIGOUSUARIO'
+    PosicaoInicio = 157
+    Tamanho = 5
+    Precisao = 0
+    Coluna = 16
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'DATAHORALCTOFIS'
+    PosicaoInicio = 157
+    Tamanho = 19
+    Precisao = 0
+    Coluna = 17
+    Tipo = itIgnorar
+  end
+  object TnCursorLayoutField
+    FieldName = 'ORIGEMDADO'
+    PosicaoInicio = 157
+    Tamanho = 2
+    Precisao = 0
+    Coluna = 18
+    Tipo = itValorFixo
+    ValorFixo = '3'
+  end
+end
